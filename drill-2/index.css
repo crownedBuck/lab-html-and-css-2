@@ -1,0 +1,97 @@
+header {
+    border-style: solid;
+    border-width: 4px;
+    border-color:black;
+    margin: 2%;
+    width: 96%;
+    height: 200px;
+    position: relative;
+
+}
+
+#middle {
+    border-style: dotted;
+    border-width: 4px;
+    width: 96%;
+    margin: 2%;
+    height: 250px;
+    position: relative;
+    /* padding-bottom: 3%; */
+}
+
+#purple-rectangle {
+    background-color: rgb(117, 0, 219);
+    width: 5%;
+    height: 72%;
+    position: absolute;
+    left: 1%;
+    top: 25%;
+    bottom: 3%;
+}
+
+#green-rectangle {
+    background-color: rgb(31, 124, 26);
+    position:absolute;
+
+    left:10%;
+    width: 33%;
+    height: 94%;
+    top: 3%;
+    bottom: 3%;
+}
+
+#blue-circle {
+    background-color: rgb(118, 195, 230);
+    position:absolute;
+    border-radius: 50%;
+    height: 94%;
+    width: 190px; 
+    top: 3%;
+    bottom: 3%;
+    left: 50%
+}
+
+#yellow-rectangle {
+    background-color: rgb(255, 251, 194);
+    position:absolute;
+    width: 90%;
+    height: 70%;
+
+    top: 15%;
+    bottom: 15%;
+    left: 5%;
+    right: 5%;
+
+    box-shadow: 5px 5px 3px 3px rgb(64, 64, 64);
+}
+
+footer {
+    box-shadow: 2px 2px 2px 2px rgb(189, 189, 189);
+    position: relative;
+    border-style: solid;
+    border-color:rgb(189, 189, 189);
+    border-width: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 250px;
+
+    /* background-color: bisque; */
+}
+
+#textbox-hello {
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+
+    /* background-color: aquamarine; */
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(5, 0, 109);
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
